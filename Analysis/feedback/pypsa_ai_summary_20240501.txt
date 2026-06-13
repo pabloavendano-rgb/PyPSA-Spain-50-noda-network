@@ -1,0 +1,44 @@
+# PyPSA-Spain Model Diagnostic Summary
+Period: 2024-05-01 → 2024-05-30  (720 hours)
+
+## Overall Price Accuracy
+  Model mean:  46.6 €/MWh
+  OMIE mean:   31.2 €/MWh
+  Mean error:  +15.3 €/MWh  (std 21.7)
+  Correlation: 0.682
+
+## Calibration by Price-Setting Technology
+Tech                    Hrs      %    Model     OMIE    Error   ErrSD    NetImp
+----------------------------------------------------------------------------
+CCGT                    291  40.4%     72.1     52.0    +20.1    21.9     +1457
+biomass                 152  21.1%     41.7     29.2    +12.5    21.3     +1360
+hydro                   148  20.6%     28.1     14.8    +13.3    14.2      +973
+nuclear                  59   8.2%     15.0      6.3     +8.7     5.9      -230
+offwind-float            52   7.2%      2.8      0.4     +2.3     1.7     -1539
+onwind                   10   1.4%      3.4      4.8     -1.4     3.7     -1707
+CCGT_flex                 6   0.8%     92.4     31.2    +61.2    25.6     +1720
+coal                      1   0.1%    116.6     40.1    +76.4     nan     +1720
+diesel                    1   0.1%    317.0     61.5   +255.5     nan     +1720
+
+## CCGT Tranche MC Boundaries (Spanish fleet)
+  Low  (CCGT_lo) :  MC ≤ 83.5 €/MWh,  capacity 10680 MW
+  Mid  (CCGT_mid):  MC 83.5–93.1 €/MWh,  capacity 6659 MW
+  High (CCGT_hi) :  MC > 93.1 €/MWh,  capacity 1663 MW
+
+## Import/Export Context
+  Mean net import (FR+PT): +941 MW
+  Import hours (>200MW):   539 / 720
+  Export hours (< -200MW): 152 / 720
+  FR mean flow: +433 MW,  PT mean flow: +508 MW
+
+## Demand Context
+  Mean ES load: 27474 MW  (min 18572, max 34424)
+
+## Likely Diagnosis Targets
+  1. If CCGT error is large (+) and import is high: IC factor may be too low,
+     limiting cheap FR nuclear from setting a lower clearing price.
+  2. If biomass/hydro error is large: their bid prices may exceed actual merit order.
+  3. If nuclear error is positive with negative net import: ES nuclear MC or
+     p_min_pu may be too restrictive, preventing lower-cost clearing.
+  4. CO₂ price multiplies directly into all thermal MC values — check calibration.
+  5. Large nodal spread hours suggest internal transmission constraints are binding.

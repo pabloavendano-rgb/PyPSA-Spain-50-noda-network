@@ -1,0 +1,92 @@
+# PyPSA-Spain Validation Statistics
+Generated: 2026-06-13 22:40
+Period:    2024-11-01 → 2024-11-03 (72 hours)
+
+## 1. ES Price Accuracy
+  Model mean:    43.5 EUR/MWh
+  OMIE mean:     82.1 EUR/MWh
+  Mean error:    -38.6 EUR/MWh
+  MAE:           38.6 EUR/MWh
+  RMSE:          41.8 EUR/MWh
+  Correlation:   0.829
+  Price p10/p50/p90: 5.4 / 36.9 / 78.2 EUR/MWh
+  OMIE  p10/p50/p90: 48.0 / 85.3 / 112.4 EUR/MWh
+  Zero-price hours: model=0  OMIE=0
+
+## 2. Border Country Prices
+  FR: model=53.8  actual=84.1 EUR/MWh
+  PT: model=72.7  actual=82.1 EUR/MWh
+
+## 3. ES Dispatch Breakdown (GWh)
+  hydro (dispatch)        697.7 GWh  (32.4%)
+  nuclear                 421.4 GWh  (19.6%)
+  solar                   384.2 GWh  (17.8%)
+  onwind                  284.9 GWh  (13.2%)
+  CCGT_must_run           136.5 GWh  (6.3%)
+  ror                      91.1 GWh  (4.2%)
+  PHS (dispatch)           61.6 GWh  (2.9%)
+  biomass                  43.2 GWh  (2.0%)
+  csp (dispatch)           20.3 GWh  (0.9%)
+  CCGT                     11.4 GWh  (0.5%)
+  OCGT                      0.0 GWh  (0.0%)
+  diesel                    0.0 GWh  (0.0%)
+  load_shedding             0.0 GWh  (0.0%)
+  CCGT_flex                 0.0 GWh  (0.0%)
+  coal                     -0.0 GWh  (-0.0%)
+  TOTAL                  2152.3 GWh
+
+## 4. ES VRE Curtailment
+  solar           potential=404.7 GWh  curtailed=20.6 GWh  rate=5.1%
+  onwind          potential=287.5 GWh  curtailed=2.6 GWh  rate=0.9%
+
+## 4b. Price-Setter by Carrier (% hours)
+  nuclear                   40h   55.6%  mean=22.5 €/MWh
+  CCGT                      27h   37.5%  mean=73.3 €/MWh
+  PHS                        4h    5.6%  mean=61.7 €/MWh
+  CCGT_must_run              1h    1.4%  mean=3.0 €/MWh
+  --- price-bin breakdown (top 3 setters) ---
+  nuclear           : ≤10:9h  10–30:22h  30–50:6h  50–70:2h  70–90:1h  90–120:0h  >120:0h
+  CCGT              : ≤10:0h  10–30:0h  30–50:0h  50–70:3h  70–90:24h  90–120:0h  >120:0h
+  PHS               : ≤10:0h  10–30:0h  30–50:0h  50–70:3h  70–90:1h  90–120:0h  >120:0h
+  [Spain 2024 actual: CCGT ~45–55%, VRE ~15–25%, Nuclear ~10–15%, Hydro ~10–15%]
+
+## 5. Interconnector Flows
+  FR↔ES: mean_net=-726 MW  (46% hrs FR→ES, 54% hrs ES→FR)
+  PT↔ES: mean_net=-2502 MW  (0% hrs PT→ES, 100% hrs ES→PT)
+  PT↔ES real: mean_net=-755 MW  (model error=-1747 MW)
+
+## 6. Hydro SOC (end of simulation)
+  ES: total e-cap=12441 GWh  end_SOC=8121 GWh (65%)  inflow=359 GWh (window)
+  FR: total e-cap=13423 GWh  end_SOC=9248 GWh (69%)  inflow=371 GWh (window)
+  PT: total e-cap=10016 GWh  end_SOC=6794 GWh (68%)  inflow=63 GWh (window)
+
+## 6b. Monthly Hydro — SOC, Dispatch & Uplift over Real (GWh)
+  Month       SOC_start    SOC_end   Dispatch  Real_hydro    Uplift  Uplift%
+  ----------------------------------------------------------------------
+  2024-11        8454.7     8121.2      788.8         nan      +nan    +nan%
+  TOTAL                                 788.8       247.4    +541.5  +218.9%
+
+## 7. Installed Capacity (ES only, GW)
+  CCGT                 19.00 GW (93 units)
+  CCGT_flex            5.25 GW (29 units)
+  CCGT_must_run        2.00 GW (87 units)
+  OCGT                 2.50 GW (50 units)
+  biomass              0.60 GW (10 units)
+  coal                 0.00 GW (2 units)
+  diesel               0.77 GW (50 units)
+  load_shedding        500.00 GW (50 units)
+  nuclear              7.41 GW (4 units)
+  onwind               35.31 GW (50 units)
+  ror                  2.20 GW (9 units)
+  solar                39.47 GW (50 units)
+  PHS                  3.33 GW  50.8 GWh storage
+  csp                  2.41 GW  14.5 GWh storage
+  hydro                14.90 GW  12440.8 GWh storage
+
+## 8. Internal ES Line Congestion
+  88 internal ES lines  (1 congested >10% of hours)
+    76: ES0 34→ES0 37  21% hrs >80%
+    19: ES0 13→ES0 34  7% hrs >80%
+    6: ES0 1→ES0 13  0% hrs >80%
+    67: ES0 29→ES0 45  0% hrs >80%
+    66: ES0 29→ES0 42  0% hrs >80%

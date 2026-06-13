@@ -1,0 +1,15 @@
+# Run this once to install dependencies into your Python environment:
+#
+#   pip install pypsa linopy numpy pandas matplotlib
+#
+# Gurobi: install the solver from https://www.gurobi.com/downloads/
+# then activate your academic licence (grbgetkey ...) — gurobipy comes
+# bundled with the Gurobi installer and doesn't need a separate pip install.
+#
+# After that, just open run_validation.py and hit Run — no venv needed.
+
+pypsa>=1.1,<2.0
+linopy>=0.6,<1.0
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8

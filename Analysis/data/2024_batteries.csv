@@ -1,0 +1,127 @@
+p_nom,max_hours,efficiency_store,efficiency_dispatch,standing_loss,marginal_cost,cyclic_state_of_charge,technology,lat,long,name,note,closest_bus,canary
+32.5,30.49,0.922,0.922,4e-05,1,False,PHS,39.71587,-6.89634,TORREAL,PHS,ES0 36,False
+200.0,4.43,0.922,0.922,4e-05,1,False,Li-ion,36.01291,-5.60502,ST PALMOSILLA,Li-ion,ES0 42,False
+77.6,4.38,0.922,0.922,4e-05,1,False,Li-ion,36.01291,-5.60502,ST Cerrillo,Li-ion,ES0 42,False
+60.0,5.17,0.922,0.922,4e-05,1,False,Li-ion,37.93882,-4.49932,Solacor TES1,Li-ion,ES0 32,False
+60.0,4.75,0.922,0.922,4e-05,1,False,Li-ion,39.22127,-3.5005,Helios TES 2,Li-ion,ES0 37,False
+60.0,4.75,0.922,0.922,4e-05,1,False,Li-ion,39.22127,-3.5005,Helios TES1,Li-ion,ES0 37,False
+60.0,4.75,0.922,0.922,4e-05,1,False,Li-ion,37.93882,-4.49932,Solacor TES2,Li-ion,ES0 32,False
+49.35,4.57,0.922,0.922,4e-05,1,False,Li-ion,42.4662,-8.27073,BESS BEARIZ,Li-ion,ES0 15,False
+100.0,2.25,0.922,0.922,4e-05,1,False,PHS,43.24847,-8.58162,CHR MONTEMAIOR,Bombeo (Greenfield),ES0 11,False
+92.46,2.0,0.922,0.922,4e-05,1,False,Li-ion,39.13989,-1.07285,BESS I,Li-ion,ES0 40,False
+41.58,4.13,0.922,0.922,4e-05,1,False,Li-ion,37.29913,-3.13733,BAT DÓLAR 1,Li-ion,ES0 22,False
+42.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,36.75634,-5.8137,ARCOS I HIBRIDACIÓN,Li-ion,ES0 29,False
+42.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,36.64758,-5.93486,PRISCA HIBRIDACIÓN,Li-ion,ES0 29,False
+37.46,4.13,0.922,0.922,4e-05,1,False,Li-ion,42.84557,-8.91408,BAT PEDREGAL TREMUZO,Li-ion,ES0 11,False
+35.2,4.12,0.922,0.922,4e-05,1,False,Li-ion,43.03953,-7.4568,BAT MURAS,Li-ion,ES0 30,False
+35.0,4.13,0.922,0.922,4e-05,1,False,Li-ion,42.63096,-4.85566,BESS HIBRIDACIÓN FV VIRGEN DE AREÑOS III,Li-ion,ES0 44,False
+35.0,4.13,0.922,0.922,4e-05,1,False,Li-ion,39.71587,-6.89634,BAT TAGUS III,Li-ion,ES0 36,False
+35.0,4.13,0.922,0.922,4e-05,1,False,Li-ion,39.71587,-6.89634,BAT TAGUS IV,Li-ion,ES0 36,False
+35.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,37.80173,-5.10703,BESS Gamonarejo 36,Li-ion,ES0 32,False
+30.0,4.13,0.922,0.922,4e-05,1,False,Li-ion,39.63276,-7.40761,BAT SAN ANTONIO,Li-ion,ES0 36,False
+30.0,4.13,0.922,0.922,4e-05,1,False,Li-ion,42.29758,-3.98919,BESS HIBRIDACIÓN PE IGLESIAS,Li-ion,ES0 28,False
+30.0,4.13,0.922,0.922,4e-05,1,False,Li-ion,39.32083,-6.29307,BAT MAJADA ALTA,Li-ion,ES0 36,False
+12.0,10.0,0.922,0.922,4e-05,1,False,Termico,36.18628,-5.48827,ACERINOX AT Salesol,Termico,ES0 42,False
+30.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,41.87376,-2.10259,Trevago I,Li-ion,ES0 0,False
+30.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,41.87376,-2.10259,Trevago II,Li-ion,ES0 0,False
+50.0,2.22,0.922,0.922,4e-05,1,False,PHS,36.66947,-5.99835,CHR LAS MAJADILLAS,Bombeo (Greenfield),ES0 29,False
+7.0,15.76,0.922,0.922,4e-05,1,False,Li-ion,37.11341,-4.70313,Proyecto de almacenamiento energético con Grid Forming en nueva fábrica de BESS,Li-ion,ES0 45,False
+25.53,4.13,0.922,0.922,4e-05,1,False,Li-ion,42.76141,-8.7682,BAT MONTE TREITO,Li-ion,ES0 11,False
+25.08,4.0,0.922,0.922,4e-05,1,False,Li-ion,38.68543,-1.43822,HIB BESS LOS PEDREROS,Li-ion,ES0 16,False
+25.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,37.28369,-5.92267,DOS HERMANAS TZ HIBRIDACIÓN,Li-ion,ES0 1,False
+45.72,2.0,0.922,0.922,4e-05,1,False,Li-ion,38.87115,-6.98035,"Almacenamiento Central Híbrida ""Los Limonetes""",Li-ion,ES0 10,False
+22.1,4.0,0.922,0.922,4e-05,1,False,Li-ion,37.17694,-2.94856,BESS EL CORTIJO,Li-ion,ES0 17,False
+22.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,39.21973,-3.50111,Helios ST1,Li-ion,ES0 37,False
+22.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,39.21973,-3.50111,Helios ST2,Li-ion,ES0 37,False
+22.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,37.93882,-4.49932,Solacor ST1,Li-ion,ES0 32,False
+22.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,37.93882,-4.49932,Solacor ST2,Li-ion,ES0 32,False
+5.0,16.05,0.922,0.922,4e-05,1,False,Li-ion,37.11341,-4.70313,Proyecto de almacenamiento energético con Grid Forming en nueva fábrica de electrolizadores,Li-ion,ES0 45,False
+20.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,41.4206,-2.33176,Hibridacion Alentisque,Li-ion,ES0 0,False
+40.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,43.29954,-4.58187,BROA-TRAS,Li-ion,ES0 20,False
+20.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,41.1714,-5.78399,Santiz I,Li-ion,ES0 27,False
+20.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,43.1103,-9.03275,HIB BESS MONTE REDONDO,Li-ion,ES0 11,False
+2.02,37.13,0.922,0.922,4e-05,1,False,Termico,37.37323,-5.93121,Almacenamiento térmico con caldera eléctrica en INTERMALTA - SEVILLA,Termico,ES0 1,False
+20.7,3.54,0.922,0.922,4e-05,1,False,Li-ion,41.79698,1.73274,Stand-alone Mateu,Li-ion,ES0 25,False
+15.23,4.14,0.922,0.922,4e-05,1,False,Li-ion,28.12194,-16.72419,Almacenamiento de electricidad mediante baterías (BESS) en “Villa Bess 1”,Li-ion,ES0 23,True
+13.25,4.54,0.922,0.922,4e-05,1,False,Li-ion,39.19099,-1.07724,I.S.F. JALANCE I HIBRIDADA CON ALMACENAMIENTO,Li-ion,ES0 40,False
+15.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,38.51878,-1.25746,HIB BESS JUMILLA,Li-ion,ES0 18,False
+15.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,41.56386,0.58711,Hibridacion Sant Miquel,Li-ion,ES0 2,False
+23.49,2.3,0.922,0.922,4e-05,1,False,Li-ion,41.39516,1.81125,SONORA SUBIRATS 1,Li-ion,ES0 6,False
+24.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,40.51192,-3.53688,BESS MGE ALMACENAMIENTO AZOR 1,Li-ion,ES0 4,False
+20.0,2.33,0.922,0.922,4e-05,1,False,Li-ion,41.83484,-5.03712,HIB BESS SAN BLAS,Li-ion,ES0 14,False
+23.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,39.47426,-6.38599,CACERES 2023,Li-ion,ES0 36,False
+9.87,4.57,0.922,0.922,4e-05,1,False,Li-ion,38.82328,-0.47246,Hibridación de la planta de Bufali,Li-ion,ES0 18,False
+15.0,3.0,0.922,0.922,4e-05,1,False,Termico,37.38641,-6.20245,PS20-Th-TESS,Termico,ES0 1,False
+10.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,37.80173,-5.10703,Africana,Li-ion,ES0 32,False
+10.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,28.49934,-13.85991,HIB BESS FUERTEVENTURA,Li-ion,ES0 29,True
+7.5,5.0,0.922,0.922,4e-05,1,False,Termico,37.38641,-6.20245,PS10-Th-TESS,Termico,ES0 1,False
+2.0,16.0,0.922,0.922,4e-05,1,False,Termico,37.38941,-5.98404,P2H_ENERGYNEST_B,Termico,ES0 1,False
+15.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,39.98813,4.0926,ALMACENAMIENTO HIBRIDADO MENORCA III,Li-ion,ES1 0,False
+0.39,76.92,0.922,0.922,4e-05,1,False,Termico,41.62923,0.89486,"ALMACENAMIENTO TÉRMICO en NUFRI MOLLERUSSA, CAPACIDAD 30.000 KWh",Termico,ES0 2,False
+6.0,4.76,0.922,0.922,4e-05,1,False,Termico,39.96709,-4.82723,ThermalBox® para la descarbonización del proceso industrial de Schreiber en Noblejas (Toledo),Termico,ES0 13,False
+14.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,41.05204,0.4389,BESS Coll de Moro,Li-ion,ES0 2,False
+14.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,41.05204,0.4389,BESS Torre Madrina,Li-ion,ES0 2,False
+5.73,4.38,0.922,0.922,4e-05,1,False,Stand-alone,39.94357,-0.06348,Nuevo sistema de almacenamiento en la planta de Almazora,Stand-alone,ES0 33,False
+10.5,2.29,0.922,0.922,4e-05,1,False,Li-ion,37.00246,-5.02185,BESS LA VEGA I,Li-ion,ES0 9,False
+10.5,2.29,0.922,0.922,4e-05,1,False,Li-ion,37.00246,-5.02185,BESS LA VEGA II,Li-ion,ES0 9,False
+4.99,4.62,0.922,0.922,4e-05,1,False,Li-ion,41.86236,-4.80823,PB BARLOVENTO 43,Li-ion,ES0 14,False
+4.99,4.62,0.922,0.922,4e-05,1,False,Li-ion,41.86236,-4.80823,PB BITÁCORA 43,Li-ion,ES0 14,False
+4.99,4.62,0.922,0.922,4e-05,1,False,Li-ion,41.86236,-4.80823,PB BOCINA 43,Li-ion,ES0 14,False
+5.5,4.1,0.922,0.922,4e-05,1,False,Stand-alone,43.29954,-4.58187,BESS PIXIN,Stand-alone,ES0 20,False
+5.0,4.47,0.922,0.922,4e-05,1,False,Li-ion,43.52538,-5.9306,BESS LLOREDA 1,Li-ion,ES0 12,False
+2.0,11.0,0.922,0.922,4e-05,1,False,Termico,37.38941,-5.98404,P2H_ENERGYNEST_E,Termico,ES0 1,False
+5.0,4.12,0.922,0.922,4e-05,1,False,Li-ion,39.88769,-0.08463,SISTEMA DE ALMACENAMIENTO HIBRIDADO BESS BURRIANA I,Li-ion,ES0 33,False
+5.0,4.12,0.922,0.922,4e-05,1,False,Li-ion,39.88769,-0.08463,SISTEMA DE ALMACENAMIENTO HIBRIDADO BESS BURRIANA II,Li-ion,ES0 33,False
+5.0,4.09,0.922,0.922,4e-05,1,False,Li-ion,39.53758,-0.37067,PAE VINALESA,Li-ion,ES0 5,False
+5.0,4.09,0.922,0.922,4e-05,1,False,Li-ion,39.53758,-0.37067,PAE VINALESA III,Li-ion,ES0 5,False
+5.0,4.09,0.922,0.922,4e-05,1,False,Li-ion,39.53758,-0.37067,PAE VINALESA IV,Li-ion,ES0 5,False
+10.12,2.0,0.922,0.922,4e-05,1,False,Li-ion,43.26631,-4.03033,BELL-MATA,Li-ion,ES0 20,False
+5.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,42.84557,-8.91408,BESS Serra de Outes,Li-ion,ES0 11,False
+5.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,28.49934,-13.85991,HIB BESS PUERTO DEL ROSARIO,Li-ion,ES0 29,True
+4.99,4.0,0.922,0.922,4e-05,1,False,Stand-alone,41.26774,1.60375,STAND-ALONE CON GRID FORMING EN PLANTA PHFV CASTELLET,Stand-alone,ES0 25,False
+4.99,4.0,0.922,0.922,4e-05,1,False,Li-ion,40.32385,-3.86492,STAND-ALONE CON GRID FORMING EN PLANTA PHFV LUCERO,Li-ion,ES0 34,False
+4.99,4.0,0.922,0.922,4e-05,1,False,Stand-alone,41.34638,1.69952,STAND-ALONE CON GRID FORMING EN PLANTA PHFV PENEDES,Stand-alone,ES0 25,False
+9.93,2.0,0.922,0.922,4e-05,1,False,Li-ion,43.17639,-4.01792,CALA-MATA,Li-ion,ES0 20,False
+4.9,4.0,0.922,0.922,4e-05,1,False,Li-ion,39.69629,-0.36997,BESS El Garbi,Li-ion,ES0 5,False
+4.85,4.0,0.922,0.922,4e-05,1,False,Li-ion,39.67691,-0.21916,SISTEMA DE ALMACENAMIENTO STAND ALONE “EL ROLLET”,Li-ion,ES0 5,False
+4.57,4.0,0.922,0.922,4e-05,1,False,Li-ion,40.4226,-3.67017,BESS LA ISLA,Li-ion,ES0 4,False
+3.82,4.38,0.922,0.922,4e-05,1,False,Li-ion,39.67691,-0.21916,MORPHEUS,Li-ion,ES0 5,False
+4.0,4.13,0.922,0.922,4e-05,1,False,Li-ion,43.07676,-8.40782,BESS RAPOSEIRAS,Li-ion,ES0 11,False
+4.0,4.05,0.922,0.922,4e-05,1,False,Li-ion,43.1899,-8.47445,POZA,Li-ion,ES0 11,False
+4.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,43.16264,-8.50348,BESS STAND ALONE BARCES,Li-ion,ES0 11,False
+4.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,38.83496,-1.46066,Planta Almacenamiento Frontones Híbrido,Li-ion,ES0 16,False
+4.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,27.98274,-15.77972,BESS hibridación ISF Llanos de la Aldea I,Li-ion,ES0 23,True
+4.77,3.36,0.922,0.922,4e-05,1,False,Li-ion,36.18628,-5.48827,TELEIRO LOS BARRIOS,Li-ion,ES0 42,False
+3.82,4.0,0.922,0.922,4e-05,1,False,Li-ion,38.87307,-1.34875,Planta Almacenamiento Campanario I Híbrido,Li-ion,ES0 16,False
+7.2,2.08,0.922,0.922,4e-05,1,False,Li-ion,39.34657,-6.17303,HIBRIDACION DC-DC BATERIAS PIZARRA 1,Li-ion,ES0 36,False
+3.0,4.85,0.922,0.922,4e-05,1,False,Li-ion,40.15724,-0.16283,Hibridación planta FV Useres-Figuerasa-1,Li-ion,ES0 33,False
+3.0,4.66,0.922,0.922,4e-05,1,False,Termico,37.28135,-5.92352,ThermalBox® para la descarbonización del proceso industrial de Acolsa en Dos Hermanas (Sevilla),Termico,ES0 1,False
+3.0,4.66,0.922,0.922,4e-05,1,False,Termico,38.37802,-4.84857,ThermalBox® para la descarbonización del proceso industrial de COVAP en Pozoblanco (Córdoba),Termico,ES0 32,False
+3.0,4.66,0.922,0.922,4e-05,1,False,Termico,37.38863,-5.99534,ThermalBox® para la descarbonización del proceso industrial de Persán en Sevilla (Sevilla),Termico,ES0 1,False
+3.0,4.66,0.922,0.922,4e-05,1,False,Termico,38.21573,-3.5177,ThermalBox® para la descarbonización del proceso industrial de Acesur en Vilches (Jaén),Termico,ES0 31,False
+5.0,2.47,0.922,0.922,4e-05,1,False,Li-ion,42.23766,-8.72472,BESS TRONCAL,Li-ion,ES0 15,False
+4.8,2.13,0.922,0.922,4e-05,1,False,Li-ion,39.81564,-0.43001,PSFH ESPADAN,Li-ion,ES0 33,False
+4.95,2.07,0.922,0.922,4e-05,1,False,Li-ion,39.53758,-0.37067,PARQUE DE ALMACENAMIENTO ENERGÉTICO VINALESA STORAGE 1,Li-ion,ES0 5,False
+5.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,40.29864,-3.58526,Aldehuela 1_ST,Li-ion,ES0 4,False
+5.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,41.76194,-1.47209,INSTALACIÓN ALMACENAMIENTO CENTRAL HÍBRIDA LAS AZUBÍAS,Li-ion,ES0 0,False
+5.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,40.25563,-3.82844,Humanes 1_ST,Li-ion,ES0 34,False
+5.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,40.32385,-3.86492,MOSTOLES 1_ST,Li-ion,ES0 34,False
+5.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,41.6331,-1.27473,Instalación almacenamiento Central Híbrida El Tollo,Li-ion,ES0 19,False
+4.99,2.0,0.922,0.922,4e-05,1,False,Li-ion,40.27321,-0.9852,"Almacenamiento Central Híbrida ""Ampliación Puerto Escandón""",Li-ion,ES0 33,False
+0.23,43.04,0.922,0.922,4e-05,1,False,Termico,37.38941,-5.98404,P2H_ENERGYNEST_A,Termico,ES0 1,False
+2.0,4.26,0.922,0.922,4e-05,1,False,Li-ion,43.16424,-2.77834,IGORRE,Li-ion,ES0 8,False
+2.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,27.92355,-15.57495,BESS hibridación ISF Aldea Blanca I,Li-ion,ES0 23,True
+2.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,27.92355,-15.57495,BESS hibridación ISF Aldea Blanca II,Li-ion,ES0 23,True
+2.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,27.92355,-15.57495,BESS hibridación ISF Aldea Blanca III,Li-ion,ES0 23,True
+2.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,27.92355,-15.57495,BESS hibridación ISF Aldea Blanca IV,Li-ion,ES0 23,True
+2.0,4.0,0.922,0.922,4e-05,1,False,Li-ion,28.09104,-17.11101,BESS hibridación PE Jedey,Li-ion,ES0 23,True
+2.92,2.0,0.922,0.922,4e-05,1,False,Li-ion,40.27599,-0.98577,"Almacenamiento Central Híbrida ""Puerto Escandón""",Li-ion,ES0 33,False
+2.41,2.0,0.922,0.922,4e-05,1,False,Li-ion,41.77103,-1.1226,"Almacenamiento Central Híbrida ""Los Monteros""",Li-ion,ES0 19,False
+2.19,2.0,0.922,0.922,4e-05,1,False,Li-ion,41.64901,-0.89793,Instalación Almacenamiento hibridado FAVEKER N1,Li-ion,ES0 19,False
+1.0,4.26,0.922,0.922,4e-05,1,False,Li-ion,43.17639,-4.01792,BARIN,Li-ion,ES0 20,False
+1.0,4.26,0.922,0.922,4e-05,1,False,Li-ion,43.17639,-4.01792,ELCANO,Li-ion,ES0 20,False
+0.6,6.67,0.922,0.922,4e-05,1,False,Termico,37.33977,-5.84084,Integración de Almacenamiento Térmico en Industria Cervecera (ISATICER),Termico,ES0 1,False
+1.94,2.0,0.922,0.922,4e-05,1,False,Li-ion,41.61991,-1.23686,"Almacenamiento Central Híbrida ""Valdejalón II""",Li-ion,ES0 19,False
+1.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,37.01837,-4.55966,PLANTA DE ALMACENAMIENTO EN FUENTE DE PIEDRA,Li-ion,ES0 45,False
+1.0,2.0,0.922,0.922,4e-05,1,False,Li-ion,37.4733,-4.58149,PLANTA DE ALMACENAMIENTO EN MONTURQUE,Li-ion,ES0 45,False
+1.0,1.5,0.922,0.922,4e-05,1,False,Termico,40.4226,-3.67017,Criotermia,Termico,ES0 4,False

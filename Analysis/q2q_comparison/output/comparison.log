@@ -1,0 +1,129 @@
+2026-04-25 15:47:47,928 [INFO] ============================================================
+2026-04-25 15:47:47,928 [INFO] Q2Q vs Non-Q2Q Comparison
+2026-04-25 15:47:47,928 [INFO] ============================================================
+2026-04-25 15:47:47,929 [INFO] Non-Q2Q network already exists: /Users/eddieparsons/Documents/BSE_stats/Thesis/pypsa-spain-master/resources/networks/base_s_50_elec_noq2q.nc
+2026-04-25 15:47:47,929 [INFO]   Delete it to force rebuild.
+2026-04-25 15:47:47,929 [INFO] Loading Q2Q network: /Users/eddieparsons/Documents/BSE_stats/Thesis/pypsa-spain-master/resources/networks/base_s_50_elec_ES.nc
+2026-04-25 15:47:49,617 [INFO] New version 1.2.0 available! (Current: 1.1.2)
+2026-04-25 15:47:49,830 [INFO] Imported network 'Unnamed Network' has buses, carriers, generators, lines, links, loads, storage_units, stores, sub_networks
+2026-04-25 15:47:49,835 [INFO]   Generators: 183, Lines: 88, Links: 201, Buses: 150
+2026-04-25 15:47:49,835 [INFO] Loading non-Q2Q network: /Users/eddieparsons/Documents/BSE_stats/Thesis/pypsa-spain-master/resources/networks/base_s_50_elec_noq2q.nc
+2026-04-25 15:47:49,912 [INFO] New version 1.2.0 available! (Current: 1.1.2)
+2026-04-25 15:47:50,115 [INFO] Imported network 'Unnamed Network' has buses, carriers, generators, lines, links, loads, storage_units, stores, sub_networks
+2026-04-25 15:47:50,120 [INFO]   Generators: 185, Lines: 88, Links: 210, Buses: 155
+2026-04-25 15:47:50,120 [INFO] 
+------------------------------------------------------------
+2026-04-25 15:47:50,120 [INFO] STEP 2: Verifying Q2Q vs Non-Q2Q Difference
+2026-04-25 15:47:50,120 [INFO] ------------------------------------------------------------
+2026-04-25 15:47:50,122 [INFO] 
+  solar Verification:
+2026-04-25 15:47:50,123 [INFO]     Generators compared: 50
+2026-04-25 15:47:50,123 [INFO]     Top generator: ES0 36 0 solar
+2026-04-25 15:47:50,123 [INFO]     Mean p_max_pu difference: 0.0063
+2026-04-25 15:47:50,123 [INFO]     Max |difference|: 0.1464
+2026-04-25 15:47:50,123 [INFO]     Correlation: 0.9960
+2026-04-25 15:47:50,123 [INFO]     Low CF (<0.3) mean diff: 0.0264
+2026-04-25 15:47:50,123 [INFO]     High CF (>0.5) mean diff: -0.0746
+2026-04-25 15:47:50,123 [INFO]     ~ solar: Profiles differ but are highly correlated
+2026-04-25 15:47:50,123 [INFO] 
+  onwind Verification:
+2026-04-25 15:47:50,123 [INFO]     Generators compared: 50
+2026-04-25 15:47:50,123 [INFO]     Top generator: ES0 46 0 onwind
+2026-04-25 15:47:50,123 [INFO]     Mean p_max_pu difference: 0.0542
+2026-04-25 15:47:50,124 [INFO]     Max |difference|: 0.2503
+2026-04-25 15:47:50,124 [INFO]     Correlation: 0.9512
+2026-04-25 15:47:50,124 [INFO]     Low CF (<0.3) mean diff: 0.0731
+2026-04-25 15:47:50,124 [INFO]     High CF (>0.5) mean diff: -0.1037
+2026-04-25 15:47:50,124 [INFO]     ✓ onwind: Profiles are clearly different (Q2Q vs raw ERA5)
+2026-04-25 15:47:50,124 [INFO] 
+------------------------------------------------------------
+2026-04-25 15:47:50,124 [INFO] STEP 3: Solving Both Networks
+2026-04-25 15:47:50,124 [INFO] ------------------------------------------------------------
+2026-04-25 15:47:50,124 [INFO] 
+Solving Q2Q network...
+2026-04-25 15:47:50,124 [INFO]   Solver: gurobi
+2026-04-25 15:47:50,124 [INFO]   Snapshots: 8760
+2026-04-25 15:47:50,124 [INFO]   Generators: 183
+2026-04-25 15:47:55,812 [INFO]  Solve problem using Gurobi solver
+2026-04-25 15:47:55,813 [INFO] Solver options:
+ - threads: 32
+ - method: 2
+ - crossover: 0
+ - BarConvTol: 1e-05
+ - Seed: 123
+ - AggFill: 0
+ - PreDual: 0
+2026-04-25 15:47:56,922 [INFO] Writing objective.
+2026-04-25 15:48:02,124 [INFO]  Writing time: 5.2s
+2026-04-25 15:48:04,751 [INFO] Set parameter Username
+2026-04-25 15:48:04,751 [INFO] Set parameter LicenseID to value 2788386
+2026-04-25 15:48:04,752 [INFO] Academic license - for non-commercial use only - expires 2027-03-06
+2026-04-25 15:48:29,451 [INFO] Read LP format model from file /private/var/folders/12/gbpsc_v96gq8qtj0cmpb3qvw0000gn/T/linopy-problem-czoq0_5r.lp
+2026-04-25 15:48:29,453 [INFO] Reading time = 24.70 seconds
+2026-04-25 15:48:29,453 [INFO] obj: 15137865 rows, 7243703 columns, 30047300 nonzeros
+2026-04-25 15:48:29,455 [INFO] Set parameter Threads to value 32
+2026-04-25 15:48:29,455 [INFO] Set parameter Method to value 2
+2026-04-25 15:48:29,456 [INFO] Set parameter Crossover to value 0
+2026-04-25 15:48:29,456 [INFO] Set parameter BarConvTol to value 1e-05
+2026-04-25 15:48:29,456 [INFO] Set parameter Seed to value 123
+2026-04-25 15:48:29,456 [INFO] Set parameter AggFill to value 0
+2026-04-25 15:48:29,456 [INFO] Set parameter PreDual to value 0
+2026-04-25 15:48:29,456 [INFO] Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 25.3.0 25D125)
+2026-04-25 15:48:29,456 [INFO] 
+2026-04-25 15:48:29,456 [INFO] CPU model: Apple M4
+2026-04-25 15:48:29,456 [INFO] Thread count: 10 physical cores, 10 logical processors, using up to 32 threads
+2026-04-25 15:48:29,456 [INFO] 
+2026-04-25 15:48:29,456 [INFO] Warning: Thread count (32) is larger than processor count (10)
+2026-04-25 15:48:29,456 [INFO]          Reduce the value of the Threads parameter to improve performance
+2026-04-25 15:48:29,456 [INFO] 
+2026-04-25 15:48:29,456 [INFO] 
+2026-04-25 15:48:29,457 [INFO] Non-default parameters:
+2026-04-25 15:48:29,457 [INFO] Method  2
+2026-04-25 15:48:29,457 [INFO] BarConvTol  1e-05
+2026-04-25 15:48:29,457 [INFO] Crossover  0
+2026-04-25 15:48:29,457 [INFO] AggFill  0
+2026-04-25 15:48:29,457 [INFO] PreDual  0
+2026-04-25 15:48:29,457 [INFO] Seed  123
+2026-04-25 15:48:29,457 [INFO] Threads  32
+2026-04-25 15:48:29,457 [INFO] 
+2026-04-25 15:48:29,457 [INFO] Optimize a model with 15137865 rows, 7243703 columns and 30047300 nonzeros (Min)
+2026-04-25 15:48:29,665 [INFO] Model fingerprint: 0x1e53ab9c
+2026-04-25 15:48:29,668 [INFO] Model has 1524599 linear objective coefficients
+2026-04-25 15:48:29,761 [INFO] Coefficient statistics:
+2026-04-25 15:48:29,761 [INFO]   Matrix range     [7e-03, 1e+02]
+2026-04-25 15:48:29,761 [INFO]   Objective range  [1e-02, 5e+05]
+2026-04-25 15:48:29,761 [INFO]   Bounds range     [7e-01, 1e+10]
+2026-04-25 15:48:29,761 [INFO]   RHS range        [7e-01, 9e+06]
+2026-04-25 15:48:29,761 [INFO] Warning: Model contains large bounds
+2026-04-25 15:48:29,761 [INFO]          Consider reformulating model or setting NumericFocus parameter
+2026-04-25 15:48:29,761 [INFO]          to avoid numerical issues.
+2026-04-25 15:48:29,761 [INFO] 
+2026-04-25 15:48:34,921 [INFO] Presolve removed 9162354 rows and 395936 columns (presolve time = 5s)...
+2026-04-25 15:48:40,020 [INFO] Presolve removed 10048290 rows and 1281872 columns (presolve time = 10s)...
+2026-04-25 15:48:45,061 [INFO] Presolve removed 10048290 rows and 1281872 columns (presolve time = 15s)...
+2026-04-25 15:48:50,323 [INFO] Presolve removed 10048290 rows and 1281872 columns (presolve time = 21s)...
+2026-04-25 15:48:53,631 [INFO] Presolve removed 10048290 rows and 1281872 columns
+2026-04-25 15:48:53,866 [INFO] Presolve time: 24.41s
+2026-04-25 15:48:53,866 [INFO] Presolved: 5089575 rows, 5961831 columns, 17762399 nonzeros
+2026-04-25 15:49:00,326 [INFO] Elapsed ordering time = 5s
+2026-04-25 15:49:05,326 [INFO] Elapsed ordering time = 10s
+2026-04-25 15:50:26,537 [INFO] Elapsed ordering time = 91s
+2026-04-25 15:50:33,582 [INFO] Elapsed ordering time = 98s
+2026-04-25 15:50:35,327 [INFO] Elapsed ordering time = 100s
+2026-04-25 15:50:40,350 [INFO] Elapsed ordering time = 105s
+2026-04-25 15:50:45,326 [INFO] Elapsed ordering time = 110s
+2026-04-25 15:50:50,340 [INFO] Elapsed ordering time = 115s
+2026-04-25 15:50:55,326 [INFO] Elapsed ordering time = 120s
+2026-04-25 15:51:00,330 [INFO] Elapsed ordering time = 125s
+2026-04-25 15:51:05,339 [INFO] Elapsed ordering time = 130s
+2026-04-25 15:51:10,334 [INFO] Elapsed ordering time = 135s
+2026-04-25 15:51:15,336 [INFO] Elapsed ordering time = 140s
+2026-04-25 15:51:20,329 [INFO] Elapsed ordering time = 145s
+2026-04-25 15:51:25,387 [INFO] Elapsed ordering time = 150s
+2026-04-25 15:51:30,374 [INFO] Elapsed ordering time = 155s
+2026-04-25 15:51:35,327 [INFO] Elapsed ordering time = 160s
+2026-04-25 15:51:40,326 [INFO] Elapsed ordering time = 165s
+2026-04-25 15:51:45,329 [INFO] Elapsed ordering time = 170s
+2026-04-25 15:51:50,342 [INFO] Elapsed ordering time = 175s
+2026-04-25 15:51:55,365 [INFO] Elapsed ordering time = 180s
+2026-04-25 15:52:00,327 [INFO] Elapsed ordering time = 185s
